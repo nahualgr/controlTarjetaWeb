@@ -100,9 +100,9 @@ export default function ResumenSistema() {
         />
         <button 
           onClick={exportarExcel}
-          className="w-full sm:w-auto px-4 py-2 bg-green-600 text-white rounded-lg hover:bg-green-700 transition-colors"
+          className="w-full sm:w-auto px-4 py-2 bg-green-500 text-black font-medium rounded-lg hover:bg-green-600 transition-colors flex items-center justify-center gap-2"
         >
-          Exportar a Excel
+          📥 Exportar a Excel
         </button>
       </div>
       
