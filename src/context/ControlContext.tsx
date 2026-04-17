@@ -31,6 +31,8 @@ export type OperacionSistema = {
   emisor: string;
   nroComprobante: string;
   comprobanteCompleto: string;
+  // Propiedad añadida para sincronizar con el procesamiento de ResumenSistema
+  importeAutorizacionCupon: string; 
 };
 
 type ControlContextType = {
